@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTPicker", "DTPicker\DTPicker.csproj", "{EFA708EC-3242-49CA-A02A-A2E2C3EE8B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "TestProject\WpfApplication1.csproj", "{095367D7-AFAB-49CE-92B5-BFBFBF1590FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFA708EC-3242-49CA-A02A-A2E2C3EE8B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA708EC-3242-49CA-A02A-A2E2C3EE8B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA708EC-3242-49CA-A02A-A2E2C3EE8B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA708EC-3242-49CA-A02A-A2E2C3EE8B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095367D7-AFAB-49CE-92B5-BFBFBF1590FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095367D7-AFAB-49CE-92B5-BFBFBF1590FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095367D7-AFAB-49CE-92B5-BFBFBF1590FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095367D7-AFAB-49CE-92B5-BFBFBF1590FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
