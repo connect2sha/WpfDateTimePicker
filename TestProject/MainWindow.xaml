@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:DTPicker="clr-namespace:DTPicker;assembly=DTPicker"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" GotFocus="Window_GotFocus">
+    <Grid ShowGridLines="False">
+        <DTPicker:CustomDateTimePicker Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Margin="194,57,0,0" Name="DateTimePicker1" VerticalAlignment="Top" />
+        <Button Name="Open" Content="Open" Grid.Row="0" Grid.Column="1" Margin="350,57,50,240" Click="Open_Click"></Button>
+    </Grid>
+</Window>
